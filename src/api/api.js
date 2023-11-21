@@ -1,5 +1,5 @@
 export const settings = {
-    host: '',
+    host: 'https://books-be.onrender.com',
 };
 
 async function request(url, options) {
