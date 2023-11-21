@@ -1,0 +1,18 @@
+{
+  "name": "online-book-library-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the Online Book Library",
+  "scripts": {
+    "start": "serve",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "lit-html": "^1.3.0",
+    "page": "^1.11.6"
+  },
+  "devDependencies": {
+    "serve": "^11.3.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
