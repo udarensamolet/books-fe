@@ -1,0 +1,15 @@
+name: Frontend CI/CD
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Notify Render for Deployment
+      run: curl -X POST https://api.render.com/webhooks/YOUR_RENDER_WEBHOOK_ID
